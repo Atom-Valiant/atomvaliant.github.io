@@ -1,2 +1,41 @@
 # atomvaliant.github.io
 A place for Bottled Light Games' games.
+
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title> Number Guesser</title>
+  
+  <link rel="stylesheet" href="styles.css">
+<script src="Number_Guesser.js"></script>
+</head>
+
+<body>
+<form action="" method="post">
+  <h2>Choose a Number 1-100</h2>
+  <label for="number"></label>
+  <input id="guess_box" type="number" id="number" name="user_number_guess" min ="1" max="100" >
+  
+  <button type="submit">Submit</button>
+</form>   
+  
+</body>   
+
+</html
+
+body {
+  background-color: #FFA500;
+  display: grid;
+  place-content:center
+}
+
+form {
+  display:grid;
+  grid-template-columns:1fr;
+  grid-template-rows:1fr;
+}
+#guess_box{
+  place-center: center;
